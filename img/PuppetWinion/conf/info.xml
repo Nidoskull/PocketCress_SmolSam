@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Mascot>
+	<Information>
+		<Name>Puppet - Sun</Name>
+		<PreviewImage>shime26.png</PreviewImage>
+		<Artist Name="Nidoskull" URL="https://cohost.org/nidoskull" />
+		<Scripter Name="Kilkakon (+ Nidoskull)" URL="http://kilkakon.com" />
+		<!-- <Commissioner Name="Kilkakon" URL="http://kilkakon.com" /> -->
+		<!-- <Support Name="Patreon" URL="https://www.patreon.com/kilkakon" /> -->
+	</Information>
+</Mascot>

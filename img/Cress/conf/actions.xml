@@ -802,6 +802,82 @@
 			</Animation>
 		</Action>
 
+		<Action Name="SummonTotemPuppetBoom" Type="Sequence">
+			<ActionReference Name="SummonTotemBoom1" />
+			<ActionReference Name="SummonTotem2" />
+			<ActionReference Name="Falling" InitialVX="${mascot.lookRight ? -20 : 20}"/>
+			<ActionReference Name="Bouncing" />
+			<ActionReference Name="Sprawl" Duration="40" />
+		</Action>
+
+        
+		<Action Name="SummonTotemBoom1" Type="Embedded" Class="com.group_finity.mascot.action.Breed"
+			BornX="-32" BornY="96" BornMascot="PuppetBoom" BornBehavior="PullUp">
+			<Animation>
+				<Pose Image="/shime1.png" ImageRight="/shime1r.png" ImageAnchor="64,128" Velocity="0,0" Duration="16" />
+				<Pose Image="/shime39.png" ImageRight="/shime39r.png" ImageAnchor="96,128" Velocity="0,0" Duration="1" Sound="/xp.wav"/>
+				<Pose Image="/shime39.png" ImageRight="/shime39r.png" ImageAnchor="96,128" Velocity="0,0" Duration="19" />
+				<Pose Image="/shime38.png" ImageRight="/shime38r.png" ImageAnchor="96,128" Velocity="0,0" Duration="1" Sound="/xp.wav"/>
+				<Pose Image="/shime38.png" ImageRight="/shime38r.png" ImageAnchor="96,128" Velocity="0,0" Duration="19" />
+				<Pose Image="/shime39.png" ImageRight="/shime39r.png" ImageAnchor="96,128" Velocity="0,0" Duration="1" Sound="/xp.wav"/>
+				<Pose Image="/shime39.png" ImageRight="/shime39r.png" ImageAnchor="96,128" Velocity="0,0" Duration="19" />
+				<Pose Image="/shime40.png" ImageRight="/shime40r.png" ImageAnchor="96,128" Velocity="0,0" Duration="40" />
+				<Pose Image="/shime41.png" ImageRight="/shime41r.png" ImageAnchor="96,128" Velocity="0,0" Duration="20" Sound="/xp2.wav"/>
+				<Pose Image="/shime48.png" ImageRight="/shime48r.png" ImageAnchor="96,128" Velocity="0,0" Duration="20" />
+				<Pose Image="/shime49.png" ImageRight="/shime49r.png" ImageAnchor="96,128" Velocity="0,0" Duration="20" />
+			</Animation>
+		</Action>
+        
+		<Action Name="SummonTotemPuppetRoots" Type="Sequence">
+			<ActionReference Name="SummonTotemRoots1" />
+			<ActionReference Name="SummonTotem2" />
+			<ActionReference Name="Falling" InitialVX="${mascot.lookRight ? -20 : 20}"/>
+			<ActionReference Name="Bouncing" />
+			<ActionReference Name="Sprawl" Duration="40" />
+		</Action>
+        
+		<Action Name="SummonTotemRoots1" Type="Embedded" Class="com.group_finity.mascot.action.Breed"
+			BornX="-32" BornY="96" BornMascot="PuppetRoots" BornBehavior="PullUp">
+			<Animation>
+				<Pose Image="/shime1.png" ImageRight="/shime1r.png" ImageAnchor="64,128" Velocity="0,0" Duration="16" />
+				<Pose Image="/shime39.png" ImageRight="/shime39r.png" ImageAnchor="96,128" Velocity="0,0" Duration="1" Sound="/xp.wav"/>
+				<Pose Image="/shime39.png" ImageRight="/shime39r.png" ImageAnchor="96,128" Velocity="0,0" Duration="19" />
+				<Pose Image="/shime38.png" ImageRight="/shime38r.png" ImageAnchor="96,128" Velocity="0,0" Duration="1" Sound="/xp.wav"/>
+				<Pose Image="/shime38.png" ImageRight="/shime38r.png" ImageAnchor="96,128" Velocity="0,0" Duration="19" />
+				<Pose Image="/shime39.png" ImageRight="/shime39r.png" ImageAnchor="96,128" Velocity="0,0" Duration="1" Sound="/xp.wav"/>
+				<Pose Image="/shime39.png" ImageRight="/shime39r.png" ImageAnchor="96,128" Velocity="0,0" Duration="19" />
+				<Pose Image="/shime40.png" ImageRight="/shime40r.png" ImageAnchor="96,128" Velocity="0,0" Duration="40" />
+				<Pose Image="/shime41.png" ImageRight="/shime41r.png" ImageAnchor="96,128" Velocity="0,0" Duration="20" Sound="/xp2.wav"/>
+				<Pose Image="/shime48.png" ImageRight="/shime48r.png" ImageAnchor="96,128" Velocity="0,0" Duration="20" />
+				<Pose Image="/shime49.png" ImageRight="/shime49r.png" ImageAnchor="96,128" Velocity="0,0" Duration="20" />
+			</Animation>
+		</Action>
+        
+		<Action Name="SummonTotemPuppetWinion" Type="Sequence">
+			<ActionReference Name="SummonTotemWinion1" />
+			<ActionReference Name="SummonTotem2" />
+			<ActionReference Name="Falling" InitialVX="${mascot.lookRight ? -20 : 20}"/>
+			<ActionReference Name="Bouncing" />
+			<ActionReference Name="Sprawl" Duration="40" />
+		</Action>
+        
+		<Action Name="SummonTotemWinion1" Type="Embedded" Class="com.group_finity.mascot.action.Breed"
+			BornX="-32" BornY="96" BornMascot="PuppetWinion" BornBehavior="PullUp">
+			<Animation>
+				<Pose Image="/shime1.png" ImageRight="/shime1r.png" ImageAnchor="64,128" Velocity="0,0" Duration="16" />
+				<Pose Image="/shime39.png" ImageRight="/shime39r.png" ImageAnchor="96,128" Velocity="0,0" Duration="1" Sound="/xp.wav"/>
+				<Pose Image="/shime39.png" ImageRight="/shime39r.png" ImageAnchor="96,128" Velocity="0,0" Duration="19" />
+				<Pose Image="/shime38.png" ImageRight="/shime38r.png" ImageAnchor="96,128" Velocity="0,0" Duration="1" Sound="/xp.wav"/>
+				<Pose Image="/shime38.png" ImageRight="/shime38r.png" ImageAnchor="96,128" Velocity="0,0" Duration="19" />
+				<Pose Image="/shime39.png" ImageRight="/shime39r.png" ImageAnchor="96,128" Velocity="0,0" Duration="1" Sound="/xp.wav"/>
+				<Pose Image="/shime39.png" ImageRight="/shime39r.png" ImageAnchor="96,128" Velocity="0,0" Duration="19" />
+				<Pose Image="/shime40.png" ImageRight="/shime40r.png" ImageAnchor="96,128" Velocity="0,0" Duration="40" />
+				<Pose Image="/shime41.png" ImageRight="/shime41r.png" ImageAnchor="96,128" Velocity="0,0" Duration="20" Sound="/xp2.wav"/>
+				<Pose Image="/shime48.png" ImageRight="/shime48r.png" ImageAnchor="96,128" Velocity="0,0" Duration="20" />
+				<Pose Image="/shime49.png" ImageRight="/shime49r.png" ImageAnchor="96,128" Velocity="0,0" Duration="20" />
+			</Animation>
+		</Action>
+
 		<Action Name="PullUp" Type="Sequence">
 			<ActionReference Name="Falling" InitialVX="${mascot.lookRight ? 10 : -10}" InitialVY="-40"/>
 			<ActionReference Name="Bouncing" />
