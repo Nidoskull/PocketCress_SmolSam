@@ -886,7 +886,7 @@
 		<!-- Alright, here's the tunes. -->
     <Action Name="HumAdventureAction" Type="Stay" BorderType="Floor">
         <Animation>
-             <Pose Image="/shime33.png" ImageRight="/shime33r.png" ImageAnchor="64,128" Velocity="0,0" Duration="15" Sound="/Adventure/01.wav" />
+            <Pose Image="/shime33.png" ImageRight="/shime33r.png" ImageAnchor="64,128" Velocity="0,0" Duration="15" Sound="/Adventure/01.wav" />
             <Pose Image="/shime34.png" ImageRight="/shime34r.png" ImageAnchor="64,128" Velocity="0,0" Duration="15" />
             <Pose Image="/shime33.png" ImageRight="/shime33r.png" ImageAnchor="64,128" Velocity="0,0" Duration="15" />
             <Pose Image="/shime34.png" ImageRight="/shime34r.png" ImageAnchor="64,128" Velocity="0,0" Duration="15" />
