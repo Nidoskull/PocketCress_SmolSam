@@ -107,14 +107,21 @@
 			<Behavior Name="Dab" Frequency="100" />
 			<Behavior Name="JumpFromBottomOfIE" Frequency="50" Condition="#{mascot.anchor.x &gt;= mascot.environment.activeIE.left &amp;&amp;
 				mascot.anchor.x &lt; mascot.environment.activeIE.right}" />
-				
 			<Behavior Name="SummonTotem" Frequency="50" Condition="#{mascot.totalCount &lt; 50}" Toggleable="true" />
 			<Behavior Name="SummonTotemPuppet" Frequency="50" Condition="#{mascot.totalCount &lt; 50}" Toggleable="true" >
 				<NextBehaviorList Add="false">
 					<BehaviorReference Name="SummonTotemPuppetSun" Frequency="100" />
 					<BehaviorReference Name="SummonTotemPuppetWater" Frequency="100" />
+					<BehaviorReference Name="SummonTotemPuppetBoom" Frequency="100" />
+					<BehaviorReference Name="SummonTotemPuppetRoots" Frequency="100" />
+					<BehaviorReference Name="SummonTotemPuppetWinion" Frequency="100" />
 				</NextBehaviorList>
 			</Behavior>
+			<Behavior Name="SummonTotemPuppetSun" Frequency="0" Hidden="true" />
+			<Behavior Name="SummonTotemPuppetWater" Frequency="0" Hidden="true" />
+			<Behavior Name="SummonTotemPuppetBoom" Frequency="0" Hidden="true" />
+			<Behavior Name="SummonTotemPuppetRoots" Frequency="0" Hidden="true" />
+			<Behavior Name="SummonTotemPuppetWinion" Frequency="0" Hidden="true" />
 		</Condition>
 		
 		<!-- On Work Area Facing the Wall -->
